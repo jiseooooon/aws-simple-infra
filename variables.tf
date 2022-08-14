@@ -29,8 +29,3 @@ variable "bastion_key_pair_name" {
   default = "devos-demo-sydney-instance-key"
   description = "Bastion Instance Key Pair Name"
 }
-
-variable "isDemoo" {
-  default = true
-  description = "flag"
-}
